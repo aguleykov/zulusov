@@ -40,31 +40,12 @@ a:visited {
   display: flex;
   margin-bottom: 20px;
 }
-
-@media (max-width: 768px) {
-  .avatar {
-    text-align: center;
-/*     display: block; */
-   }
-}
-
-@media (max-width: 320px) {
-  .avatar {
-    text-align: center;
-/*     display: block; */
-   }
     
 @media (max-width: 768px) {
   .info {
     text-align: center;
     display: block;
-   }
-}
-
-@media (max-width:320px) {
-      .info {
-    text-align: center;
-    display: block;
+    avatar: block;
    }
 }
 
